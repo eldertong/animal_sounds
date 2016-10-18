@@ -5,4 +5,9 @@ class Cat
     @name = name
     @sound = "Meow"
   end
+  def what_cats_say()
+      puts "Cats say @sound"
+    end
 end
+
+
