@@ -9,8 +9,8 @@ class TestAnimalSounds < Minitest::Test
     
     def test_cat_name
         animal = Cat.new("Kitty")
-        assert_equal("Kitty", animal.name)
+        assert_equals("Kitty", animal.name)
     end
 
 
-    end
+end
