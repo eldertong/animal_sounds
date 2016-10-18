@@ -1,7 +1,17 @@
 class Cat
-  attr_reader :name
+  attr_reader :name, :sound
 
   def initialize(name)
     @name = name
+    @sound = "Meow"
   end
 end
+
+# class Cat
+#  attr_reader :name, :sound
+
+#     def initialize(name)
+#         @name = name
+#         @sound = "Meow"
+#     end
+# end
