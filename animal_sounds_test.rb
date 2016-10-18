@@ -40,10 +40,10 @@ class TestAnimalSounds < Minitest::Test
 
         def test_fox_sound
             animal = Fox.new("Trouble")
-            assert_equal("yippy", animal.sound)
+            assert_equal("Yippy", animal.sound)
         end
         def test_whats_the_fox_say
                 ylvis = Fox.new("ylvis")
-                assert_equal("ylvis says yippy", ylvis.what_animal_says())
+                assert_equal("ylvis says Yippy", ylvis.what_animal_says())
             end
 end

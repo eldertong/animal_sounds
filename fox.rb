@@ -3,9 +3,11 @@ class Fox
 
   def initialize(name)
     @name = name
-    @sound = "yippy"
+    @sound = "Yippy"
   end
   def what_animal_says()
       "#{name} says #{sound}"
     end
 end
+
+
