@@ -5,9 +5,13 @@ class Cat
     @name = name
     @sound = "Meow"
   end
-  def what_cats_say()
-      puts "Cats say @sound"
+  def what_animal_says()
+      "#{name} says #{sound}"
     end
 end
 
+
+# boots=Cat.new("boots")
+
+# boots.what_cats_say()
 
