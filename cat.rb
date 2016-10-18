@@ -1,7 +1,7 @@
-animal = Cat.new do
+class Cat
   attr_reader :name
 
   def initialize(name)
-    @name = "Kitty"
+    @name = name
   end
 end
